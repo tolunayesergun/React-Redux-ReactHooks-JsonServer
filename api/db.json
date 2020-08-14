@@ -1,0 +1,296 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageName": "p1.jpg",
+      "categoryId": 1,
+      "productName": "IPhone 6",
+      "unitPrice": "100",
+      "unitsInStock": 53
+    },
+    {
+      "id": 2,
+      "imageName": "p1.jpg",
+      "categoryId": 3,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 3,
+      "imageName": "p1.jpg",
+      "categoryId": 3,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 4,
+      "imageName": "p1.jpg",
+      "categoryId": 3,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 5,
+      "imageName": "p1.jpg",
+      "categoryId": 1,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 6,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 7,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 8,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 9,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 10,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 11,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 12,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 13,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 14,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 15,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 16,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 17,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 18,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 19,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 20,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 21,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 22,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 23,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 24,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 25,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 26,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 27,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 28,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 29,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 30,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 31,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 32,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 33,
+      "imageName": "p1.jpg",
+      "categoryId": 2,
+      "productName": "IPhone 6",
+      "unitPrice": "5000",
+      "unitsInStock": 53
+    },
+    {
+      "id": 34,
+      "imageName": "p2.jpg",
+      "categoryId": 1,
+      "productName": "P20 Lite",
+      "unitPrice": "2000",
+      "unitsInStock": 17
+    },
+    {
+      "id": 35
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Huawei",
+      "seoUrl": "beverages"
+    },
+    {
+      "id": 2,
+      "categoryName": "Apple",
+      "seoUrl": "condiments"
+    },
+    {
+      "id": 3,
+      "categoryName": "Lg",
+      "seoUrl": "confections"
+    }
+  ]
+}

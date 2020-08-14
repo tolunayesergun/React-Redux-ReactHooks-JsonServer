@@ -1,0 +1,22 @@
+npm install react-router-dom
+npm install alertifyjs
+npm install -g json-server
+npm install  bootstrap
+npm install reactstrap
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+
+json-server --watch db.json
+Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy Restricted
+
+npm audit fix
+
+reducer intro
+
+actiontype>Action>Reducer>index
+
+git rebase -i
+git push origin --force
