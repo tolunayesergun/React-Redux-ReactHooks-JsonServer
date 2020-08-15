@@ -1,7 +1,7 @@
 import React from "react"
 import TextInput from "../toolbox/TextInput"
 import SelectInput from "../toolbox/SelectInput"
-const ProductDetail = ({product, categories, onChange, onSave}) => {
+const ProductDetail = ({product, categories, onChange, onSave,errors}) => {
 
     return (
         <form onSubmit={onSave}>
@@ -12,7 +12,7 @@ const ProductDetail = ({product, categories, onChange, onSave}) => {
                 label="Ürün Adı"
                 value={product.productName}
                 onChange={onChange}
-                error="Hata"
+                error={errors.productName}
             />
 
             <SelectInput
@@ -25,7 +25,7 @@ const ProductDetail = ({product, categories, onChange, onSave}) => {
                     text: category.categoryName
                 }))}
                 onChange={onChange}
-                error="Hata"
+                error={errors.categoryId}
             />
 
             <TextInput
@@ -33,7 +33,7 @@ const ProductDetail = ({product, categories, onChange, onSave}) => {
                 label="Ürün Fiyatı"
                 value={product.unitPrice}
                 onChange={onChange}
-                error="Hata"
+                error={errors.unitPrice}
             />
 
             <TextInput
@@ -41,7 +41,7 @@ const ProductDetail = ({product, categories, onChange, onSave}) => {
                 label="Stok Adedi"
                 value={product.unitsInStock}
                 onChange={onChange}
-                error="Hata"
+                error={errors.unitsInStock}
             />
 
             <button type="submit" className="btn btn-success">Kaydet</button>

@@ -13,15 +13,16 @@ function CreateOrUpdateProduct({
     history,
     ...props
 }) {
-    const [product, setProduct] = useState({...props.product});
+    const [product, setProduct] = useState({ ...props.product });
+    const [errors, setErrors] = useState({})
 
     useEffect(() => {
         if (categories.length === 0) {
             getCategories();
         }
         setProduct({ ...props.product });
-       
-    }, [props.product,getCategories,categories.length]);
+
+    }, [props.product, getCategories, categories.length]);
 
     function handleChange(event) {
         const { name, value } = event.target;
@@ -29,6 +30,18 @@ function CreateOrUpdateProduct({
             ...previousProduct,
             [name]: name === "categoryId" ? parseInt(value, 10) : value
         }));
+
+        validate(name, value)
+
+    }
+
+    function validate(name, value) {
+        if (name==="productName" &&value === "") {
+            setErrors(prev => ({ ...prev, productName: "Ürün Adı Boş Bırakılamaz" }))
+        }
+        else{
+            setErrors(prev => ({...prev,productName:""}))
+        }
     }
 
     function handleSave(event) {
@@ -39,7 +52,7 @@ function CreateOrUpdateProduct({
     }
 
     return (
-        <ProductDetail product={product} categories={categories} onChange={handleChange} onSave={handleSave} />
+        <ProductDetail product={product} categories={categories} onChange={handleChange} onSave={handleSave} errors={errors} />
     )
 }
 
@@ -49,8 +62,8 @@ export function getProductById(products, productId) {
 
     return product;
 }
-    
-function mapStateToProps(state,ownProps) {
+
+function mapStateToProps(state, ownProps) {
 
     const productId = ownProps.match.params.productId
     const product = productId && state.productListReducer.length > 0
@@ -68,4 +81,4 @@ const mapDispatchToProps = {
     getCategories, saveProduct
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(CreateOrUpdateProduct)
+export default connect(mapStateToProps, mapDispatchToProps)(CreateOrUpdateProduct)
